@@ -3,7 +3,7 @@ Terraform module for enabling AWS VPC flow logs with CloudWatch sink.
 
 ## Terraform versions
 
-Terraform 0.12. Pin module version to `~> v1.1.0`. Submit pull-requests to `master` branch.
+Terraform =>0.12. 
 
 ## Usage
 
