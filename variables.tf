@@ -1,13 +1,13 @@
 variable "name_prefix" {
   description = "A prefix used for naming resources."
   type        = string
-  default     = "VPC-NAME"
+  default     = "hgb-vpc-XXX"
 }
 
 variable "vpc_id" {
   type        = string
   description = "VPC ID where resources will be created and flow logs enabled."
-  default     = "vpc-061XXXXXXXXXXXXXXXx"
+  default     = "vpc-061d7XXXXXXXXxx"
 }
 
 variable "tags" {
